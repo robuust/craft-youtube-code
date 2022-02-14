@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "name": "robuust/craft-youtube-code",
+    "description": "Module for extracting a YouTube code from an URL",
+    "require": {
+        "craftcms/cms": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "robuust\\youtube\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
+    }
+}
