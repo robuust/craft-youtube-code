@@ -3,9 +3,9 @@
 namespace robuust\youtube\twig\filters;
 
 /**
- * Youtube filter.
+ * Youtube Code filter.
  */
-class YoutubeFilter
+class YoutubeCode
 {
     /**
      * Extracts youtube code from given URL.

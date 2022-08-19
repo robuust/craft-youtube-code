@@ -2,7 +2,7 @@
 
 namespace robuust\youtube\twig;
 
-use robuust\youtube\twig\filters\YoutubeFilter;
+use robuust\youtube\twig\filters\YoutubeCode;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;
 
@@ -17,7 +17,7 @@ class Extension extends AbstractExtension
     public function getFilters(): array
     {
         return [
-            new TwigFilter('youtubeCode', [YoutubeFilter::class, 'extractCode']),
+            new TwigFilter('youtubeCode', [YoutubeCode::class, 'extractCode']),
         ];
     }
 }
